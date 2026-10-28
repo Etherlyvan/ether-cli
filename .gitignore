@@ -1,4 +1,36 @@
+﻿# Dependencies
 node_modules/
-dist/
-coverage/
+
+# Build output and TypeScript cache
+/dist/
+*.tsbuildinfo
+
+# Test coverage
+/coverage/
+.nyc_output/
+
+# Logs and temporary files
+*.log
 *.tmp
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local task data
+/.ether-cli/
+/tasks.json
+
+# Personal engineering roadmap
+/ETHERLYVAN_GITHUB_ROADMAP.md
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local IDE settings
+/.idea/
+/.vscode/
